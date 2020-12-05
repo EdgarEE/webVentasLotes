@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9dc8957f00.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/estilos.css">
+    <title>Venta Lotes</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Concho Fuentes</h1>
+                <p>Asesor inmobiliario
+                    <br/>
+                    Celular 2225770927
+                    <br>
+                    Contamos con material incluido 
+                    <br>
+                    al adquirir un lote.
+                </p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Burcar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="Activo">Todos</a>
+                <a href="#">Terreno</a>
+                <a href="#">Ciudades</a>
+                <a href="#">Casas</a>
+                <a href="#">Calles</a>
+
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item"  
+                 data-category="casas"  
+                 data-etiquetas="casa casa muestra"
+                 data-descripcion="1.- Casa muestra en obra negra "
+                 >
+                <div class="item-contenido">
+                    <img src="images/casa1.jpeg" alt="">
+                </div>
+            </div>
+            <div class="item"  
+                 data-category="terreno"  
+                 data-etiquetas="terreno lotes"
+                 data-descripcion="2.- Terreno donde se ubican los lotes"
+                 >
+                <div class="item-contenido">
+                    <img src="images/ter1.jpeg" alt="">
+                </div>
+            </div>
+            <div class="item"  
+                 data-category="calles"  
+                 data-etiquetas="calle carretera avenida"
+                 data-descripcion="2.- Carretera donde se ubican los lotes"
+                 >
+                <div class="item-contenido">
+                    <img src="images/l8.png" alt="">
+                </div>
+            </div>
+            <div class="item"  
+                 data-category="calles"  
+                 data-etiquetas="avenida ubicacion"
+                 data-descripcion="2.- Lotes disponibles cerca de esta avenida"
+                 >
+                <div class="item-contenido">
+                    <img src="images/l3.png" alt="">
+                </div>
+            </div>
+            <div class="item"  
+                 data-category="casas"  
+                 data-etiquetas="casa casa muestra"
+                 data-descripcion="2.- Casa muestra en obra negra"
+                 >
+                <div class="item-contenido">
+                    <img src="images/casa2.jpeg" alt="">
+                </div>
+            </div>
+            <div class="item"  
+                 data-category="ciudades"  
+                 data-etiquetas="ubicacion ciudad"
+                 data-descripcion="2.- San Francisco Totimehuacan"
+                 >
+                <div class="item-contenido">
+                    <img src="images/ciudad.jpeg" alt="">
+                </div>
+            </div>
+            <div class="item"  
+                 data-category="terreno"  
+                 data-etiquetas="terrenos lotes"
+                 data-descripcion="2.- Zona de lotes disponibles"
+                 >
+                <div class="item-contenido">
+                    <img src="images/ter2.jpeg" alt="">
+                </div>
+            </div>
+            <div class="item"  
+                 data-category="ciudades"  
+                 data-etiquetas="ciudad ubicacion"
+                 data-descripcion="2.- Ubicacion de lotes San Francisco Totimehuacan"
+                 >
+                <div class="item-contenido">
+                    <img src="images/ciudad2.jpeg" alt="">
+                </div>
+            </div>
+            <div class="item"  
+                 data-category="terreno"  
+                 data-etiquetas="terreno lotes  "
+                 data-descripcion="2.- Lago de tres coronas"
+                 >
+                <div class="item-contenido">
+                    <img src="images/ter3.jpeg" alt="">
+                </div>
+            </div>
+            <!-- <div class="item">
+                <div class="item-contenido">
+                    <img src="images/ciudad.jpg" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-contenido">
+                    <img src="images/ciudad.jpg" alt="">
+                </div>
+            </div> -->
+        </section>
+
+        <section class="overlay " id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="https://twitter.com" target="_blanck" class="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://facebook.com/concho.fuentes.5" target="_blanck" class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://instagram.com" target="_blanck" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="creado-por">
+                <p>Sitio diseñado por <a href="https://twitter.com/home?lang=es" target="_black"> Edgar Escalona</a> </p>
+            </div>
+
+        </footer>
+    </div>
+    <script  src = "https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js " ></script >
+    <script  src = " https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js " > </script>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
